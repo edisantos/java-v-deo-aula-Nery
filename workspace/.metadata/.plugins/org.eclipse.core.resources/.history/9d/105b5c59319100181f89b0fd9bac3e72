@@ -1,0 +1,22 @@
+package com.clientes.model.rest.facede;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+import com.cliente.model.clientesMod;
+@Path("/clientes")
+public class clientesFacede {
+ /*Neste class vamos criar nosso cliente para consumir nosso Json*/
+	static List<clientesMod> listarclientes = new ArrayList<clientesMod>();
+	static {
+		listarclientes.add(new clientesMod("Edinaldo Santos","Floresta, 198","Jardim Andorinhas","Campinas","SP"));
+	}
+	@GET
+	public List<clientesMod>getClientes()
+	{
+		return listarclientes;
+	}
+}

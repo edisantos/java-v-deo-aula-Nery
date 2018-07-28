@@ -1,0 +1,8 @@
+package com.clientes.model.rest.facede;
+
+import javax.ws.rs.Path;
+
+@Path("/clientes")
+public class clientesFacede {
+
+}

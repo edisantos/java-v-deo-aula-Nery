@@ -1,0 +1,15 @@
+package com.cliente.model;
+
+import java.io.Serializable;
+
+public class clientesMod implements Serializable {
+
+	
+	private static final long serialVersionUID = 1L;
+    String Nome;
+    String Endereco;
+    String Bairro;
+    String Cidade;
+    String UF;
+    /*Nossa class cliente*/
+}

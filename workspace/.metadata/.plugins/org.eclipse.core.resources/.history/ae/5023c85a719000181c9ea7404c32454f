@@ -1,0 +1,5 @@
+package com.clientes.model.rest.facede;
+
+public class clientesFacede {
+
+}

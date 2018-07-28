@@ -1,0 +1,9 @@
+package com.clientes.model.rest.facede;
+
+import javax.ws.rs.Path;
+import com.cliente.model.clientesMod;
+@Path("/clientes")
+public class clientesFacede {
+ /*Neste class vamos criar nosso cliente para consumir nosso Json*/
+	static List<clienteMod> listarclientes = new ArrayList<clienteMod>();
+}

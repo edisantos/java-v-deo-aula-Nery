@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link type="text/css" href="../Content/css/bootstrap.min.css">
+<link type="text/css" href="../Content/css/site.css">
+</head>
+<body>
+<hr/>
+<div class ="footer">
+<p>Todos os direitos reservados</p>
+</div>
+</body>
+</html>

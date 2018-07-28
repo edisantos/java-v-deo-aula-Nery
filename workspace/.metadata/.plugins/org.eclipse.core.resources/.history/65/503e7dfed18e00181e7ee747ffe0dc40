@@ -1,0 +1,7 @@
+{
+  "clientes":
+   [
+     {"Nome":"Edinaldo D dos Santos","Endereco":"Rua Benedicto Rodriguês do Santos, 318","Bairro":"Jardim Novo Maracanã","Cidade":"Campinas","UF":"SP"},
+     {"Nome":"Edinaldo D dos Santos","Endereco":"Rua Benedicto Rodriguês do Santos, 318","Bairro":"Jardim Novo Maracanã","Cidade":"Campinas","UF":"SP"}
+   ]
+}

@@ -1,0 +1,12 @@
+var clienteModule = angular.module('clienteModule',[]);
+clienteModule.controller("clienteCtrl",function($scope,$http){
+	urlClientes = 'http://localhost:8080/CadastroCliente/rest/clientes';
+	$scope.listarClientes = function(){
+		$http.get(urlClientes).success(function(clientes){
+			$scope.clientes = clientes;
+		}).error (function (erro){
+			alert(erro);
+		});
+	}
+	$scope.listarClientes();
+});

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CadastroCliente/WebContent/Bootstrap&apos; to &apos;Content&apos;" description="Rename resource &apos;Bootstrap&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/Bootstrap" name="Content" stamp="1532042576625" updateReferences="true"/>
+</session>

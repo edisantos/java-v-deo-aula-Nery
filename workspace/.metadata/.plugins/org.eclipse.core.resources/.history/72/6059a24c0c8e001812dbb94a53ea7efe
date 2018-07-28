@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="../lib/angular/angular.js"></script>
+<link href="../Content/css/bootstrap.css" type="text/css" rel="stylesheet">
+<link type="text/css/" rel="stylesheet" href="../Content/css/site.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand glyphicon glyphicon-home" href="../index.html"> </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle glyphicon glyphicon-cog" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Menu <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="glyphicon glyphicon-new-window" href="Clientes/FomularioClientes.html"> Novo Registro</a></li>
+            <li><a class="glyphicon glyphicon-search" href="Clientes/Consultas.html"> Consultas</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="glyphicon glyphicon-wrench" href="#"> Gerenciamento</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="glyphicon glyphicon-list-alt" href="#"> Relatórios</a></li>
+          </ul>
+        </li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle glyphicon glyphicon-user" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Admin <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="glyphicon glyphicon-film" href="#"> Monitoramento</a></li>
+            <li><a class="glyphicon glyphicon-usd" href="#"> Financeiro</a></li>
+            <li><a class="glyphicon glyphicon-briefcase" href="#"> Fornecedor</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="glyphicon glyphicon-book" href="#"> Recursos Humanos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+<div class="alert alert-info">
+<div class="form-inline">
+   <div class="form-group">
+     <label for="Pesquisa">Pesquisa:</label>
+     <input type="text" nome="pesquisa" class="form-control">
+  </div>
+  <div class="form-group">
+    <button class="btn btn-primary ty="submit" name="submit">
+      <span class="glyphicon glyphicon-search"> </span>
+    </button>
+  </div>
+   </div>
+</div>
+ <hr/>
+ <table class="table table-condensed">
+ <tr>
+ <th>Nome</th>
+ <th>Endereco</th>
+ <th>Bairro</th>
+ <th>Cidade</th>
+ <th>SP</th>
+ </tr>
+ </table>
+</div>
+<script src="../Js/jquery-2.1.1.min.js"></script>
+ <script src="../Js/bootstrap.min.js"></script>
+</body>
+</html>
